@@ -8,6 +8,7 @@
 }
 body{
     background-image: url(../img/back-ground/bgpage.PNG);
+    z-index:99;
 }
 nav ul li {
     list-style-type: none;
@@ -87,4 +88,21 @@ h1{
 .tenor-gif-embed{
     width: 160px;
     height: 160px;
+}
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.vh-100{
+    z-index:99;
+}
+.form-sing.up{
+    padding: 60px;
+}.flex-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ordenar-nav{
+    display: flex;
 }

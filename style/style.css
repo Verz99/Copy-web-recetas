@@ -10,13 +10,6 @@ body{
     background-image: url(../img/back-ground/bgpage.PNG);
     z-index:99;
 }
-nav ul li {
-    list-style-type: none;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Roboto Mono', monospace;
-    color: black;
-}
 a {
     text-decoration: none;
 }
@@ -105,4 +98,7 @@ ul li{
 }
 .ordenar-nav{
     display: flex;
+}
+a{
+
 }

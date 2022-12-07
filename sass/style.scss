@@ -57,9 +57,7 @@ main {
     margin: 30px;
     padding: 5px;
 }
-h1{
-    font-family: 'Roboto Mono', monospace;
-}
+
 .part-2{
     list-style-type: none;
     text-decoration: none;
@@ -101,9 +99,11 @@ ul li{
 }
 a{
     text-decoration: none;
-}
-
-.video-milanga-style{
-    margin: 20px;
-    border-bottom: 3px;
+}@media screen and (max-with: 480px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
 }

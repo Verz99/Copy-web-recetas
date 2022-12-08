@@ -32,17 +32,14 @@ a {
 main {
   background-color: hsla(177deg, 100%, 76%, 0.9);
   border: solid hsl(187deg, 83%, 49%);
+  margin: 60px;
+  padding: 1px;
 }
 
 .img-class {
   border: 3px double yellow;
   padding: 1px;
   margin: 20px;
-}
-
-main {
-  margin: 60px;
-  padding: 1px;
 }
 
 .article {
@@ -127,4 +124,6 @@ a {
     align-items: center;
     justify-content: space-around;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
